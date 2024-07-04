@@ -1,0 +1,79 @@
+.shogi {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    height: 90vh;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #2a9d8f;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
+  .content {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .description {
+    max-width: 60%;
+  }
+  
+  .description p {
+    margin: 0 0 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .tech-stack {
+    max-width: 35%;
+  }
+  
+  .tech-stack p {
+    font-weight: bold;
+  }
+  
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
+  .github-button {
+    margin-top: 20px;
+  }
+  
+  .github-button button {
+    background-color: #ffffff;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .project-img img{
+    height: 100px;
+    width: 100%;
+  }
+  .github-button button:hover {
+    background-color: #f8f9fa;
+  }
+  
