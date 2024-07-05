@@ -10,8 +10,7 @@
 
 .skills-container h1 {
   font-size: 3rem;
-  margin-bottom: 40px;
-  color: #64ffda;
+  color: orangered;
 }
 
 .skills-grid {
@@ -49,13 +48,13 @@
   padding: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .skills-grid {
     grid-template-columns: repeat(4, 1fr); /* Adjust number of columns for medium screens */
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .skills-grid {
     grid-template-columns: repeat(3, 1fr); /* Adjust number of columns for smaller screens */
   }
