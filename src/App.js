@@ -6,14 +6,16 @@ import "./App.css";
 import About from "./component/about";
 import Projects from "./component/projects";
 import Footer from "./component/footer";
+import Tools from "./component/tools";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <About />
       <Projects />
       <Skills />
+      <Tools/>
+      <About />
       <Contact />
       <Footer />
     </div>
